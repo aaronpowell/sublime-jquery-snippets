@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[.live('${1:click}', function() \{
+	$0
+\});]]></content>
+	<tabTrigger>.live</tabTrigger>
+	<scope>source.js</scope>
+	<description>jQuery live handler</description>
+</snippet>

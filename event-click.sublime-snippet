@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[.click(function(${1:e}) \{
+	${2:${1:e}.preventDefault();}$0
+\});]]></content>
+	<tabTrigger>.click</tabTrigger>
+	<scope>source.js</scope>
+	<description>jQuery click handler</description>
+</snippet>

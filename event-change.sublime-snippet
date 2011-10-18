@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[.change(function(${1:e}) \{
+	${2:${1:e}.preventDefault();}$0
+\});]]></content>
+	<tabTrigger>.change</tabTrigger>
+	<scope>source.js</scope>
+	<description>jQuery change handler</description>
+</snippet>
