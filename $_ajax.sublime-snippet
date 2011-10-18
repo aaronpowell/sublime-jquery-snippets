@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[\$.ajax(\{
+		url: '${1}',
+		method: '${2:post}',
+		data: ${3:\{\}},
+		success: function(${4:data}) \{
+			${100:${4:data}}$0
+		\}
+	\});]]></content>
+	<tabTrigger>$.ajax</tabTrigger>
+	<scope>source.js</scope>
+	<description>jQuery AJAX call</description>
+</snippet>
