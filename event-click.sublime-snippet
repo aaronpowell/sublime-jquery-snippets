@@ -3,6 +3,6 @@
 	${2:${1:e}.preventDefault();}$0
 \});]]></content>
 	<tabTrigger>.click</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js,source.js.embedded.html</scope>
 	<description>jQuery click handler</description>
 </snippet>
