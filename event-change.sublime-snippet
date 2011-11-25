@@ -3,6 +3,6 @@
 	${2:${1:e}.preventDefault();}$0
 \});]]></content>
 	<tabTrigger>.change</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js,source.js.embedded.html</scope>
 	<description>jQuery change handler</description>
 </snippet>

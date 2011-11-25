@@ -8,6 +8,6 @@
 		\}
 	\});]]></content>
 	<tabTrigger>$.ajax</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js,source.js.embedded.html</scope>
 	<description>jQuery AJAX call</description>
 </snippet>
