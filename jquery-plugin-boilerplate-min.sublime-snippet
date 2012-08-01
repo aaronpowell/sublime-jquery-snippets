@@ -1,0 +1,42 @@
+<snippet>
+
+	<content><![CDATA[
+;(function ( \$, window, undefined ) {
+
+  var pluginName = '${1:defaultPluginName}',
+      document = window.document,
+      defaults = {
+        propertyName: "value"
+      };
+
+  function Plugin( element, options ) {
+    this.element = element;
+
+    this.options = \$.extend( {}, defaults, options) ;
+
+    this._defaults = defaults;
+    this._name = pluginName;
+
+    this.init();
+  }
+
+  Plugin.prototype.init = function () {
+    $2
+  };
+
+  \$.fn[pluginName] = function ( options ) {
+    return this.each(function () {
+      if (!\$.data(this, 'plugin_' + pluginName)) {
+        \$.data(this, 'plugin_' + pluginName, new Plugin( this, options ));
+      }
+    });
+  }
+
+}(jQuery, window));]]></content>
+
+	<tabTrigger>jq-boilerplate-min</tabTrigger>
+
+	<scope>source.js</scope>
+	<description>jQuery Plugin Boilerplate Minified</description>
+
+</snippet>
