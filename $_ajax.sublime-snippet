@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[\$.ajax(\{
 		url: '${1}',
-		method: '${2:post}',
+		type: '${2:post}',
 		data: ${3:\{\}},
 		success: function(${4:data}) \{
 			${100:${4:data}}$0
