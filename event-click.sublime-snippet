@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[.click(function(${1:e}) \{
+	<content><![CDATA[.click(function (${1:e}) \{
 	${2:${1:e}.preventDefault();}$0
 \});]]></content>
 	<tabTrigger>.click</tabTrigger>
