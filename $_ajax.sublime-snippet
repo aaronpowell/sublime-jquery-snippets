@@ -3,7 +3,7 @@
 		url: '${1}',
 		type: '${2:post}',
 		data: ${3:\{\}},
-		success: function(${4:data}) \{
+		success: function (${4:data}) \{
 			${100:${4:data}}$0
 		\}
 	\});]]></content>
